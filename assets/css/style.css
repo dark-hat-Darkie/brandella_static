@@ -3489,3 +3489,47 @@ a {
 .team-style-eleven .team-content .sub-title {
   color: rgb(255, 100, 0);
 }
+
+.team-content {
+  height: 300px;
+  top: 350px;
+}
+
+.team-content > p {
+  text-align: justify;
+  padding: 1rem;
+  font-style: italic;
+}
+
+.team-content > p:hover {
+  color: white;
+}
+
+.team-card {
+  margin-bottom: 10rem;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .team-content {
+    height: 300px;
+    top: 300px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .team-content {
+    height: 300px;
+    top: 280px;
+  }
+}
+
+@media (max-width: 767px) {
+  .team-content {
+    height: 250px;
+    top: 420px;
+  }
+  .team-card {
+    margin-bottom: 6rem;
+  }
+}
